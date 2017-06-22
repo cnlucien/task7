@@ -1,0 +1,124 @@
+/**
+*  Author:airenLiao
+*  Blog: http://www.w3cplus.com
+*/
+body,ul,ol,dd{
+    margin:0;
+    padding:0;
+    font-size: 62.5%;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+ol, ul {
+    list-style: none outside none;
+}
+article, aside, dialog, figure, footer, header, nav, section {
+    display:block;
+}
+/*-----------------------------------------------------------------------------------------------------------------------*/
+body{
+    background-color: #F0F0F0;
+    position: relative;
+}
+button{
+    border: none !important;
+}
+header{
+    background-color: #2ABDE0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow-x: hidden;
+    z-index: 1;
+}
+header button{
+    background-color: #2ABDE0 !important;
+}
+header span{
+    color: #ffffff;
+    vertical-align: middle;
+    float: left;
+    margin-left: 1rem;
+}
+/*----------------------------------------------------------------------------------------------------------------*/
+main{
+    margin-top: 3rem;
+    z-index: -1;
+    /*overflow-x: hidden;*/
+    /*overflow: hidden;*/
+    /*overflow-y: hidden;*/
+}
+div{
+    position: relative;
+}
+div.col-xs-10{
+    background-color: #ffffff;
+    border: solid 1px #C9C9C9;
+    color: #9B9B9B;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+}
+span.glyphicon-menu-right{
+    position: absolute !important;
+    right: 2%;
+    top: 33% !important;
+    color: #E7E7E7 !important;
+    font-size: 4em;
+}
+.padding-top{
+    padding-top: 0 !important;
+}
+h2{
+    margin-top: 10px !important;
+    font-size: 2rem;
+}
+.main1{
+    color: #FBB436;
+    border-bottom: solid 1px #FBB436;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+.item{
+    background-color: #6AD1E9;
+    margin-left: 10%;
+    margin-right: 10%;
+    /*margin-top: 2rem;*/
+    padding: 5%
+}
+h3{
+    margin-top: 10px !important;
+    color: #ffffff;
+    font-size: 1.8rem;
+}
+p{
+    color: #989898;
+    font-size: 1.6rem;
+    margin-top: 10px;
+}
+.round{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: solid 1px #E7E7E7;
+    background-color: #6AD1E9;
+    display: inline-block;
+}
+.round-color{
+    background-color: #F0F0F0;
+}
+span.glyphicon-triangle-right{
+    color: #FBB436;
+    position: absolute;
+    right: 2%;
+    top: 50%;
+    font-size: 2.5rem;
+
+}
+a{
+    text-decoration: none !important;
+}
