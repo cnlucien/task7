@@ -67,7 +67,7 @@ article, aside, dialog, figure, footer, header, nav, section {
 
     /*float: right;*/
 }
-/*-----------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------head-----------------------------------------------------------------*/
 header{
     position: fixed;
     top: 0;
@@ -110,4 +110,27 @@ header span{
     color: #B9E9F5;
     top: -3.2px !important;
     left: 35px;
+}
+/*---------------------------------------------------main--------------------------------------------------------------*/
+
+/*-----------------------------------------------------foot-------------------------------------------------------------------*/
+footer{
+    background-color: #2ABDE0;
+    position: fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    padding: 2rem;
+}
+footer button{
+    margin: 0 auto;
+    background-color: #FBB435 !important;
+    width: 80%;
+    /*height: 1rem;*/
+    /*line-height: 1rem;*/
+}
+footer h1{
+    color: #ffffff;
+    font-size: 2.8rem;
+    margin-top: 10px !important;
 }
