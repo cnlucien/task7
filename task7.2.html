@@ -17,8 +17,26 @@
         </div>
         <div class="row tow">
             <p class="">发言讨论结束，请大家投票</p>
-            <button class="bg-play btn btn-default"></button>
+            <button class="bg-play btn btn-default" id="a" onclick="a()"></button>
+            <audio src="财富自由.mp3" id="music" controls hidden></audio>
+            <script>
+                function a(){
+                    var audio = document.getElementById('music');
+                    if(audio.paused){
+                        audio.play();//audio.play();// 播放
+                    }
+                    else{
+                        audio.pause();// 暂停
+                    }
+                }
+            </script>
         </div>
+        <span class="glyphicon glyphicon-triangle-bottom"></span>
     </header>
+
+    <main>
+
+
+    </main>
 </body>
 </html>

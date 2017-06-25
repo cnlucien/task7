@@ -64,6 +64,7 @@ article, aside, dialog, figure, footer, header, nav, section {
     position: absolute;
     top: 9px;
     right: 24px;
+
     /*float: right;*/
 }
 /*-----------------------------------------------------------------------------------------------------------------*/
@@ -82,12 +83,12 @@ div{
     line-height: 70px;
     /*padding: 1rem 2.7rem 1rem 2.7rem;*/
 }
-header h1{
+div.one h1{
     display: inline-block;
     margin: 0 !important;
     color: #ffffff;
     vertical-align: middle;
-    /*font-size: 3rem;*/
+    font-size: 2.8rem;
 }
 button{
     border: none !important;
@@ -98,9 +99,15 @@ button{
     height: 70px;
     line-height: 70px;
 }
-header p{
+div.tow p{
     display: inline-block;
     margin: 0 !important;
     /*vertical-align: middle;*/
-    font-size: 2rem;
+    font-size: 1.8rem;
+    padding-left: 3rem;
+}
+header span{
+    color: #B9E9F5;
+    top: -3.2px !important;
+    left: 35px;
 }
