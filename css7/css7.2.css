@@ -35,7 +35,9 @@ article, aside, dialog, figure, footer, header, nav, section {
 
 .bg-knife {
     width: 30px; height: 30px;
-    background: url("../images/item-sprites.png") -33px -33px;
+    background: url("../images/item-sprites.png") -33px -33px no-repeat;
+    /*background-size: 50px 50px;*/
+
 }
 
 .bg-close {
@@ -68,11 +70,15 @@ article, aside, dialog, figure, footer, header, nav, section {
     /*float: right;*/
 }
 /*------------------------------------------------head-----------------------------------------------------------------*/
+body{
+    background-color: #2ABDE0;
+}
 header{
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 div{
     position: relative;
@@ -108,11 +114,74 @@ div.tow p{
 }
 header span{
     color: #B9E9F5;
-    top: -3.2px !important;
+    top: -4.6px !important;
     left: 35px;
+    font-size: 2rem;
+}
+p.color{
+    color: #ffffff;
+    position: relative;
+    left: 55px;
+    font-size: 1.7rem;
 }
 /*---------------------------------------------------main--------------------------------------------------------------*/
+main{
+    position: relative;
+    margin-top: 200px;
+    margin-bottom: 130px;
 
+    /*left: 0;*/
+    /*right: 0;*/
+}
+/*main div.col-xs-2{*/
+    /*width: 108px;*/
+    /*height: 108px;*/
+    /*!*padding: 20%;*!*/
+    /*border: solid 4px #ffffff;*/
+/*}*/
+.box{
+    display: flex;
+    flex-flow: row;
+    align-items: stretch;
+    justify-content: space-around;
+    margin-bottom: 44px;
+    /*justify-content: space-between;*/
+    /*justify-content: space-around;*/
+}
+.item{
+    border: solid 4px #ffffff;
+    display: inline-block;
+    width: 140px;
+    /*flex: 1 0 10px;*/
+    height: 140px;
+}
+
+.name{
+    background-color: #F5C97C;
+    height:105.6px;;
+    line-height:105.6px;
+    font-size: 2rem;
+}
+.number{
+    background-color: #84B09B;
+    color: #ffffff;
+    height: 26.4px;
+    line-height: 26.4px;
+}
+main ul{
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:145px;
+    margin: 0 !important;
+    /*z-index: 2;*/
+}
+
+div.item:hover ul{
+    display: block;
+    /*z-index: 2;*/
+}
 /*-----------------------------------------------------foot-------------------------------------------------------------------*/
 footer{
     background-color: #2ABDE0;
