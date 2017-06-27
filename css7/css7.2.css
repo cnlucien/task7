@@ -128,7 +128,7 @@ p.color{
 main{
     position: relative;
     margin-top: 200px;
-    margin-bottom: 130px;
+    margin-bottom: 170px;
 
     /*left: 0;*/
     /*right: 0;*/
@@ -144,7 +144,7 @@ main{
     flex-flow: row;
     align-items: stretch;
     justify-content: space-around;
-    margin-bottom: 44px;
+    margin-bottom: 48px;
     /*justify-content: space-between;*/
     /*justify-content: space-around;*/
 }
@@ -167,6 +167,7 @@ main{
     color: #ffffff;
     height: 26.4px;
     line-height: 26.4px;
+    font-size: 1.7rem;
 }
 main ul{
     display: none;
