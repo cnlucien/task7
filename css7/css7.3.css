@@ -1,0 +1,117 @@
+/**
+*  Author:airenLiao
+*  Blog: http://www.w3cplus.com
+*/
+body,ul,ol,dd{
+    margin:0;
+    padding:0;
+    font-size: 62.5%;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+ol, ul {
+    list-style: none outside none;
+}
+article, aside, dialog, figure, footer, header, nav, section {
+    display:block;
+}
+/*==========================================================================================================*/
+.bg-home {
+    width: 51px; height: 42px;
+    background: url("../images/sprite/result_sprites.png") -10px -235px;
+}
+
+.bg-question {
+    width: 40px; height: 40px;
+    background: url("../images/sprite/result_sprites.png") -81px -235px;
+}
+
+.bg-win {
+    width: 351px; height: 205px;
+    background: url("../images/sprite/result_sprites.png") -10px -10px;
+}
+/*--------------------------------------------------------------------------------------------------------*/
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #2ABDE0;
+}
+.head1{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    border-bottom: solid 1px #ffffff;
+}
+h2{
+    color: #ffffff;
+    margin: 0 !important;
+}
+h1{
+    color: #FFC866;;
+}
+header p{
+    color: #ffffff;
+    font-size: 1.8rem;
+    margin-bottom: 0 !important;
+}
+/*-------------------------------------------------------------------------------------------*/
+main{
+    margin-top: 555px;
+    margin-bottom: 135px;
+    position: relative;
+    z-index: -1;
+}
+main p.col-xs-3{
+    color: #D6D6D6;
+    margin-bottom: 5px !important;
+}
+main p.col-xs-8{
+    color: #A7A7A7;
+    font-size: 1.8rem;
+    margin-bottom: 5px !important;
+}
+h3{
+    margin-top: 0 !important;
+    margin-bottom: 5px !important;
+}
+ul{
+    overflow-x: hidden;
+}
+li{
+    border-bottom: solid 1px #DDDDDD;
+    margin-bottom: 5px;
+}
+/*--------------------------------------------------------------------------------------------------------------*/
+footer{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+    /*justify-content: space-between;*/
+    /*background-color: rgb(154,223,240);*/
+    background-color: rgba(154,223,240,0.5);
+    height: 130px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+button{
+    border: none;
+    width: 230px;
+    height: 80px;
+    color: #ffffff !important;
+    font-size: 2.5rem !important;
+}
+.again{
+    background-color: #F67070;
+}
+.pull{
+    background-color: #FBB436;
+}

@@ -20,29 +20,29 @@ article, aside, dialog, figure, footer, header, nav, section {
 /*--------------------------------------------------------------------------------------------------------------------*/
 .bg-search {
     width: 30px; height: 30px;
-    background: url("../images/item-sprites.png") -1px -1px;
+    background: url("../images/sprite/item-sprites.png") -1px -1px;
 }
 
 .bg-aim {
     width: 30px; height: 30px;
-    background: url("../images/item-sprites.png") -33px -1px;
+    background: url("../images/sprite/item-sprites.png") -33px -1px;
 }
 
 .bg-add {
     width: 30px; height: 30px;
-    background: url("../images/item-sprites.png") -1px -33px;
+    background: url("../images/sprite/item-sprites.png") -1px -33px;
 }
 
 .bg-knife {
     width: 30px; height: 30px;
-    background: url("../images/item-sprites.png") -33px -33px no-repeat;
+    background: url("../images/sprite/item-sprites.png") -33px -33px no-repeat;
     /*background-size: 50px 50px;*/
 
 }
 
 .bg-close {
     width: 36px; height: 36px;
-    background: url("../images/head-sprites.png") -0 -52px;
+    background: url("../images/sprite/head-sprites.png") -0 -52px;
     position: absolute;
     right: 32px;
     top: 17px;
@@ -52,7 +52,7 @@ article, aside, dialog, figure, footer, header, nav, section {
 
 .bg-list {
     width: 39px; height: 40px;
-    background: url("../images/head-sprites.png") -52px -0;
+    background: url("../images/sprite/head-sprites.png") -52px -0;
     position: absolute;
     left: 32px;
     top: 15px;
@@ -62,7 +62,7 @@ article, aside, dialog, figure, footer, header, nav, section {
 
 .bg-play {
     width: 52px; height: 52px;
-    background: url("../images/head-sprites.png") -0 -0;
+    background: url("../images/sprite/head-sprites.png") -0 -0;
     position: absolute;
     top: 9px;
     right: 24px;
@@ -98,6 +98,7 @@ div.one h1{
 }
 button{
     border: none !important;
+    background-color: #2ABDE0;
 }
 .tow{
     background-color: #B9E9F5;

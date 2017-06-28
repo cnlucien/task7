@@ -57,10 +57,13 @@ div{
 div.col-xs-10{
     background-color: #ffffff;
     border: solid 1px #C9C9C9;
-    color: #9B9B9B;
+
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin-top: 2rem;
+}
+a h2{
+    color: #9B9B9B;
 }
 span.glyphicon-menu-right{
     position: absolute !important;
