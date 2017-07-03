@@ -182,45 +182,70 @@ main ul{
 
 @media screen and (max-width: 500px) {
     .box{
-        display: flex;
-        flex-flow: row;
-        align-items: stretch;
-        justify-content: space-around;
-        margin-bottom: 48px;
+        /*display: flex;*/
+        /*flex-flow: row;*/
+        /*align-items: stretch;*/
+        /*justify-content: space-around;*/
+        margin-bottom: 33px;
         /*justify-content: space-between;*/
         /*justify-content: space-around;*/
     }
     .item{
-        border: solid 1px #ffffff;
-        display: inline-block;
-        width: 80px;
+        border: solid 2px #ffffff;
+        /*display: inline-block;*/
+        width: 90px;
         /*flex: 1 0 10px;*/
-        height: 80px;
-        position: relative;
+        height: 90px;
+        /*position: relative;*/
     }
 
     .name{
         /*background-color: #F5C97C;*/
-        height: 30.4px;
-        line-height: 30.4px;
+        height: 60.2px;
+        line-height: 60.2px;
         font-size: 1rem;
     }
     .number{
         /*background-color: #84B09B;*/
-        color: #ffffff;
-        height: 7.6px;
-        line-height: 7.6px;
+        /*color: #ffffff;*/
+        height: 25.8px;
+        line-height: 25.8px;
         font-size: 0.7rem;
     }
     main ul{
-        display: none;
-        position: absolute;
-        left: 0;
-        right: 0;
-        top:14.5px;
-        margin: 0 !important;
-        width: 20%;
+        /*display: none;*/
+        /*position: absolute;*/
+        /*left: 0;*/
+        /*right: 0;*/
+        top:95px;
+        /*margin: 0 !important;*/
+        /*width: 20%;*/
         /*z-index: 2;*/
+    }
+    .bg-search {
+        width: 18px; height: 18px;
+        background: url("../images/sprite/item-sprites.png") -0.6px -0.6px;
+        background-size: 38.4px 38.4px;
+    }
+
+    .bg-aim {
+        width: 18px; height: 18px;
+        background: url("../images/sprite/item-sprites.png") -19.8px -0.6px;
+        background-size: 38.4px 38.4px;
+    }
+
+    .bg-add {
+        width: 18px; height: 18px;
+        background: url("../images/sprite/item-sprites.png") -0.6px -19.8px;
+        background-size: 38.4px 38.4px;
+    }
+
+    .bg-knife {
+        width: 18px; height: 18px;
+        background: url("../images/sprite/item-sprites.png") -19.8px -19.8px no-repeat;
+        background-size: 38.4px 38.4px;
+        /*background-size: 50px 50px;*/
+
     }
 }
 div.item:hover ul{
