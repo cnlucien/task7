@@ -2,6 +2,9 @@
 *  Author:airenLiao
 *  Blog: http://www.w3cplus.com
 */
+html{
+    font-size: 125%;
+}
 body,ul,ol,dd{
     margin:0;
     padding:0;
@@ -32,6 +35,7 @@ article, aside, dialog, figure, footer, header, nav, section {
     width: 351px; height: 205px;
     background: url("../images/sprite/result_sprites.png") -10px -10px;
 }
+
 /*--------------------------------------------------------------------------------------------------------*/
 header{
     position: fixed;
@@ -43,9 +47,10 @@ header{
 .head1{
     display: flex;
     flex-flow: row nowrap;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-around;
-    height: 70px;
+    padding: 10px;
+    /*height: 70px;*/
     border-bottom: solid 1px #ffffff;
 }
 h2{
@@ -53,16 +58,18 @@ h2{
     margin: 0 !important;
 }
 h1{
-    color: #FFC866;;
+    color: #FFC866;
+    font-size: 1.3rem;
+    /*white-space: nowrap;*/
 }
 header p{
     color: #ffffff;
-    font-size: 1.8rem;
+    font-size: 0.8rem;
     margin-bottom: 0 !important;
 }
 /*-------------------------------------------------------------------------------------------*/
 main{
-    margin-top: 555px;
+    margin-top: 27.75rem;
     margin-bottom: 135px;
     position: relative;
     z-index: -1;
@@ -73,7 +80,7 @@ main p.col-xs-3{
 }
 main p.col-xs-8{
     color: #A7A7A7;
-    font-size: 1.8rem;
+    font-size: 0.8rem;
     margin-bottom: 5px !important;
 }
 h3{
@@ -96,7 +103,7 @@ footer{
     /*justify-content: space-between;*/
     /*background-color: rgb(154,223,240);*/
     /*opacity: 0.5;*/
-    background-color: rgba(154,223,240,0.5);
+    background-color: rgba(154,223,240,0.7);
     height: 130px;
     position: fixed;
     bottom: 0;
@@ -108,11 +115,31 @@ button{
     width: 230px;
     height: 80px;
     color: #ffffff !important;
-    font-size: 2.5rem !important;
+    font-size: 1.2rem !important;
 }
 .again{
     background-color: #F67070;
 }
 .pull{
     background-color: #FBB436;
+}
+/*----------------------------------------<400px--------------------------------------------------------*/
+@media screen and (max-width:400px){
+    .bg-win {
+        width: 210.6px; height: 123px;
+        background: url("../images/sprite/result_sprites.png") -6px -6px;
+        background-size: 222.6px 172.2px;
+    }
+    header p{
+        font-size: 0.3rem;
+    }
+    h3{
+        font-size: 0.7rem;
+    }
+    main p.col-xs-8{
+        font-size: 0.5rem;
+    }
+    button{
+        font-size: 0.8rem !important;
+    }
 }
