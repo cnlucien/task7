@@ -124,7 +124,7 @@ button{
     background-color: #FBB436;
 }
 /*----------------------------------------<400px--------------------------------------------------------*/
-@media screen and (max-width:600px){
+@media screen and (max-width:500px){
     .bg-win {
         width: 210.6px; height: 123px;
         background: url("../images/sprite/result_sprites.png") -6px -6px;
@@ -144,5 +144,8 @@ button{
     }
     button{
         font-size: 0.8rem !important;
+    }
+    main{
+        margin-top: 20rem;
     }
 }
